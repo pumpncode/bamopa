@@ -2,7 +2,8 @@
 	"tasks": {
 		"upkeep": "deno run --allow-run=npx jsr:@pumpn/upkeep",
 		"lint": "npx eslint@9.14.0",
-		"start": "deno run --env main.js"
+		"start": "deno run --env main.js",
+		"list-submodule-branches": "deno run -R --allow-run ./scripts/list-submodule-branches.js"
 	},
 	"fmt": {
 		"options": {
