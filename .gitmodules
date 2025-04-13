@@ -25,9 +25,6 @@
 [submodule "mods/balatro-highest-priestess"]
 	path = mods/balatro-highest-priestess
 	url = https://github.com/pumpncode/balatro-highest-priestess.git
-[submodule "mods/Balatro-History"]
-	path = mods/Balatro-History
-	url = https://github.com/pumpncode/Balatro-History.git
 [submodule "mods/Balatro-Jokers-Plus"]
 	path = mods/Balatro-Jokers-Plus
 	url = https://github.com/pumpncode/Balatro-Jokers-Plus.git
