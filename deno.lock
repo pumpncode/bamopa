@@ -1,12 +1,27 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@radashi-org/radashi@^12.4.0": "12.4.0",
+    "jsr:@std/fs@^1.0.16": "1.0.16",
     "jsr:@std/path@^1.0.8": "1.0.8",
+    "jsr:@valibot/valibot@1": "1.0.0",
     "npm:preact@^10.25.2": "10.25.4"
   },
   "jsr": {
+    "@radashi-org/radashi@12.4.0": {
+      "integrity": "f74afa6d052b9132fad20c6f036cf04efe6801f0690e9704e1c86f7935c18ed1"
+    },
+    "@std/fs@1.0.16": {
+      "integrity": "81878f62b6eeda0bf546197fc3daa5327c132fee1273f6113f940784a468b036",
+      "dependencies": [
+        "jsr:@std/path"
+      ]
+    },
     "@std/path@1.0.8": {
       "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    },
+    "@valibot/valibot@1.0.0": {
+      "integrity": "2e16f77fb6a1721c0c219fe0eecdc902a2d8e3d45b98383b228eda93c394e4b7"
     }
   },
   "npm": {
@@ -85,7 +100,10 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@std/path@^1.0.8"
+      "jsr:@radashi-org/radashi@^12.4.0",
+      "jsr:@std/fs@^1.0.16",
+      "jsr:@std/path@^1.0.8",
+      "jsr:@valibot/valibot@1"
     ]
   }
 }

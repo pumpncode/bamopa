@@ -3,7 +3,9 @@
 		"upkeep": "deno run --allow-run=npx jsr:@pumpn/upkeep",
 		"lint": "npx eslint@9.14.0",
 		"start": "deno run --env main.js",
-		"list-submodule-branches": "deno run -R --allow-run ./scripts/list-submodule-branches.js"
+		"list-submodule-branches": "deno run -R --allow-run ./scripts/list-submodule-branches.js",
+		"add-upstream-remote": "deno run -R --allow-run ./scripts/add-upstream-remote.js",
+		"list-mods": "deno run -R ./scripts/list-mods.js"
 	},
 	"fmt": {
 		"options": {
@@ -49,6 +51,9 @@
 		"kv"
 	],
 	"imports": {
-		"@std/path": "jsr:@std/path@^1.0.8"
+		"@radashi-org/radashi": "jsr:@radashi-org/radashi@^12.4.0",
+		"@std/fs": "jsr:@std/fs@^1.0.16",
+		"@std/path": "jsr:@std/path@^1.0.8",
+		"@valibot/valibot": "jsr:@valibot/valibot@^1.0.0"
 	}
 }
