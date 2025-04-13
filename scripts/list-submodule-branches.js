@@ -1,11 +1,10 @@
-// Script to loop through all submodules and log their branches
-// Created: April 13, 2025
-
-console.info("=== Listing branches for all submodules ===\n");
-
 // Get the root directory of the project
 const {
-	Command, cwd, errors, readDir, stat
+	Command,
+	cwd,
+	errors,
+	readDir,
+	stat
 } = Deno;
 const ROOT_DIR = cwd();
 const SUBMODULES_DIR = `${ROOT_DIR}/mods`;
