@@ -478,4 +478,5 @@ xcuserdata/
 .env
 
 .lovelyignore
-lovely
+lovely/
+smods/
