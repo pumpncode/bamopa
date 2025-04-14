@@ -1,252 +1,252 @@
 [submodule "mods/All-In-Jest"]
-	path = mods/All-In-Jest
+	path = mods-old/All-In-Jest
 	url = https://github.com/pumpncode/All-In-Jest.git
 [submodule "mods/Balatro_HighCardMod"]
-	path = mods/Balatro_HighCardMod
+	path = mods-old/Balatro_HighCardMod
 	url = https://github.com/pumpncode/Balatro_HighCardMod.git
 [submodule "mods/balatro_reverse_tarots"]
-	path = mods/balatro_reverse_tarots
+	path = mods-old/balatro_reverse_tarots
 	url = https://github.com/pumpncode/balatro_reverse_tarots.git
 [submodule "mods/Balatro---Themed-Jokers"]
-	path = mods/Balatro---Themed-Jokers
+	path = mods-old/Balatro---Themed-Jokers
 	url = https://github.com/pumpncode/Balatro---Themed-Jokers.git
 [submodule "mods/Balatro-7DeadlyDecks"]
-	path = mods/Balatro-7DeadlyDecks
+	path = mods-old/Balatro-7DeadlyDecks
 	url = https://github.com/pumpncode/Balatro-7DeadlyDecks.git
 [submodule "mods/Balatro-Aikoyoris-Shenanigans"]
-	path = mods/Balatro-Aikoyoris-Shenanigans
+	path = mods-old/Balatro-Aikoyoris-Shenanigans
 	url = https://github.com/pumpncode/Balatro-Aikoyoris-Shenanigans.git
 [submodule "mods/Balatro-Draft"]
-	path = mods/Balatro-Draft
+	path = mods-old/Balatro-Draft
 	url = https://github.com/pumpncode/Balatro-Draft.git
 [submodule "mods/Balatro-Hevven"]
-	path = mods/Balatro-Hevven
+	path = mods-old/Balatro-Hevven
 	url = https://github.com/pumpncode/Balatro-Hevven.git
 [submodule "mods/balatro-highest-priestess"]
-	path = mods/balatro-highest-priestess
+	path = mods-old/balatro-highest-priestess
 	url = https://github.com/pumpncode/balatro-highest-priestess.git
 [submodule "mods/Balatro-Jokers-Plus"]
-	path = mods/Balatro-Jokers-Plus
+	path = mods-old/Balatro-Jokers-Plus
 	url = https://github.com/pumpncode/Balatro-Jokers-Plus.git
 [submodule "mods/balatro-pampa-joker-pack"]
-	path = mods/balatro-pampa-joker-pack
+	path = mods-old/balatro-pampa-joker-pack
 	url = https://github.com/pumpncode/balatro-pampa-joker-pack.git
 [submodule "mods/balatro-plus"]
-	path = mods/balatro-plus
+	path = mods-old/balatro-plus
 	url = https://github.com/pumpncode/balatro-plus.git
 [submodule "mods/BalatroBakery"]
-	path = mods/BalatroBakery
+	path = mods-old/BalatroBakery
 	url = https://github.com/pumpncode/BalatroBakery.git
 [submodule "mods/BalatroMods"]
-	path = mods/BalatroMods
+	path = mods-old/BalatroMods
 	url = https://github.com/pumpncode/BalatroMods.git
 [submodule "mods/Bird-Jokers"]
-	path = mods/Bird-Jokers
+	path = mods-old/Bird-Jokers
 	url = https://github.com/pumpncode/Bird-Jokers.git
 [submodule "mods/BossJokers"]
-	path = mods/BossJokers
+	path = mods-old/BossJokers
 	url = https://github.com/pumpncode/BossJokers.git
 [submodule "mods/Buffoonery"]
-	path = mods/Buffoonery
+	path = mods-old/Buffoonery
 	url = https://github.com/pumpncode/Buffoonery.git
 [submodule "mods/CardSleeves"]
-	path = mods/CardSleeves
+	path = mods-old/CardSleeves
 	url = https://github.com/pumpncode/CardSleeves.git
 [submodule "mods/CelesteCardCollection"]
-	path = mods/CelesteCardCollection
+	path = mods-old/CelesteCardCollection
 	url = https://github.com/pumpncode/CelesteCardCollection.git
 [submodule "mods/Ceres"]
-	path = mods/Ceres
+	path = mods-old/Ceres
 	url = https://github.com/pumpncode/Ceres.git
 [submodule "mods/Challenger-Deep"]
-	path = mods/Challenger-Deep
+	path = mods-old/Challenger-Deep
 	url = https://github.com/pumpncode/Challenger-Deep.git
 [submodule "mods/CheesyJokers"]
-	path = mods/CheesyJokers
+	path = mods-old/CheesyJokers
 	url = https://github.com/pumpncode/CheesyJokers.git
 [submodule "mods/Cosmos"]
-	path = mods/Cosmos
+	path = mods-old/Cosmos
 	url = https://github.com/pumpncode/Cosmos.git
 [submodule "mods/Cryptid"]
-	path = mods/Cryptid
+	path = mods-old/Cryptid
 	url = https://github.com/pumpncode/Cryptid.git
 [submodule "mods/D6-Jokers"]
-	path = mods/D6-Jokers
+	path = mods-old/D6-Jokers
 	url = https://github.com/pumpncode/D6-Jokers.git
 [submodule "mods/DreadJokers"]
-	path = mods/DreadJokers
+	path = mods-old/DreadJokers
 	url = https://github.com/pumpncode/DreadJokers.git
 [submodule "mods/Emporium"]
-	path = mods/Emporium
+	path = mods-old/Emporium
 	url = https://github.com/pumpncode/Emporium.git
 [submodule "mods/ExtraCredit"]
-	path = mods/ExtraCredit
+	path = mods-old/ExtraCredit
 	url = https://github.com/pumpncode/ExtraCredit.git
 [submodule "mods/Familiar"]
-	path = mods/Familiar
+	path = mods-old/Familiar
 	url = https://github.com/pumpncode/Familiar.git
 [submodule "mods/Fusion-Jokers"]
-	path = mods/Fusion-Jokers
+	path = mods-old/Fusion-Jokers
 	url = https://github.com/pumpncode/Fusion-Jokers.git
 [submodule "mods/Galdur"]
-	path = mods/Galdur
+	path = mods-old/Galdur
 	url = https://github.com/pumpncode/Galdur.git
 [submodule "mods/GARBSHIT"]
-	path = mods/GARBSHIT
+	path = mods-old/GARBSHIT
 	url = https://github.com/pumpncode/GARBSHIT.git
 [submodule "mods/Gemstones"]
-	path = mods/Gemstones
+	path = mods-old/Gemstones
 	url = https://github.com/pumpncode/Gemstones.git
 [submodule "mods/Grim"]
-	path = mods/Grim
+	path = mods-old/Grim
 	url = https://github.com/pumpncode/Grim.git
 [submodule "mods/Handsome-Devils-Vanilla-mod-"]
-	path = mods/Handsome-Devils-Vanilla-mod-
+	path = mods-old/Handsome-Devils-Vanilla-mod-
 	url = https://github.com/pumpncode/Handsome-Devils-Vanilla-mod-.git
 [submodule "mods/Item-Remover"]
-	path = mods/Item-Remover
+	path = mods-old/Item-Remover
 	url = https://github.com/pumpncode/Item-Remover.git
 [submodule "mods/JankJonklers"]
-	path = mods/JankJonklers
+	path = mods-old/JankJonklers
 	url = https://github.com/pumpncode/JankJonklers.git
 [submodule "mods/Jimbos-Histories"]
-	path = mods/Jimbos-Histories
+	path = mods-old/Jimbos-Histories
 	url = https://github.com/pumpncode/Jimbos-Histories.git
 [submodule "mods/Joker-Evolution"]
-	path = mods/Joker-Evolution
+	path = mods-old/Joker-Evolution
 	url = https://github.com/pumpncode/Joker-Evolution.git
 [submodule "mods/JokerDisplay"]
-	path = mods/JokerDisplay
+	path = mods-old/JokerDisplay
 	url = https://github.com/pumpncode/JokerDisplay.git
 [submodule "mods/JokerHub"]
-	path = mods/JokerHub
+	path = mods-old/JokerHub
 	url = https://github.com/pumpncode/JokerHub.git
 [submodule "mods/JokerSellValue"]
-	path = mods/JokerSellValue
+	path = mods-old/JokerSellValue
 	url = https://github.com/pumpncode/JokerSellValue.git
 [submodule "mods/kcvanilla"]
-	path = mods/kcvanilla
+	path = mods-old/kcvanilla
 	url = https://github.com/pumpncode/kcvanilla.git
 [submodule "mods/Kino"]
-	path = mods/Kino
+	path = mods-old/Kino
 	url = https://github.com/pumpncode/Kino.git
 [submodule "mods/LobotomyCorp"]
-	path = mods/LobotomyCorp
+	path = mods-old/LobotomyCorp
 	url = https://github.com/pumpncode/LobotomyCorp.git
 [submodule "mods/luckyjimbos"]
-	path = mods/luckyjimbos
+	path = mods-old/luckyjimbos
 	url = https://github.com/pumpncode/luckyjimbos.git
 [submodule "mods/Maximus"]
-	path = mods/Maximus
+	path = mods-old/Maximus
 	url = https://github.com/pumpncode/Maximus.git
 [submodule "mods/MikasBalatro"]
-	path = mods/MikasBalatro
+	path = mods-old/MikasBalatro
 	url = https://github.com/pumpncode/MikasBalatro.git
 [submodule "mods/Mistigris"]
-	path = mods/Mistigris
+	path = mods-old/Mistigris
 	url = https://github.com/pumpncode/Mistigris.git
 [submodule "mods/MoreFluff"]
-	path = mods/MoreFluff
+	path = mods-old/MoreFluff
 	url = https://github.com/pumpncode/MoreFluff.git
 [submodule "mods/Mossed"]
-	path = mods/Mossed
+	path = mods-old/Mossed
 	url = https://github.com/pumpncode/Mossed.git
 [submodule "mods/my_balatro_mods"]
-	path = mods/my_balatro_mods
+	path = mods-old/my_balatro_mods
 	url = https://github.com/pumpncode/my_balatro_mods.git
 [submodule "mods/NeatoJokers"]
-	path = mods/NeatoJokers
+	path = mods-old/NeatoJokers
 	url = https://github.com/pumpncode/NeatoJokers.git
 [submodule "mods/next-ante-preview"]
-	path = mods/next-ante-preview
+	path = mods-old/next-ante-preview
 	url = https://github.com/pumpncode/next-ante-preview.git
 [submodule "mods/no-laughing-matter"]
-	path = mods/no-laughing-matter
+	path = mods-old/no-laughing-matter
 	url = https://github.com/pumpncode/no-laughing-matter.git
 [submodule "mods/Ortalab"]
-	path = mods/Ortalab
+	path = mods-old/Ortalab
 	url = https://github.com/pumpncode/Ortalab.git
 [submodule "mods/paperback"]
-	path = mods/paperback
+	path = mods-old/paperback
 	url = https://github.com/pumpncode/paperback.git
 [submodule "mods/Perkolating"]
-	path = mods/Perkolating
+	path = mods-old/Perkolating
 	url = https://github.com/pumpncode/Perkolating.git
 [submodule "mods/Plantain"]
-	path = mods/Plantain
+	path = mods-old/Plantain
 	url = https://github.com/pumpncode/Plantain.git
 [submodule "mods/Pokermon"]
-	path = mods/Pokermon
+	path = mods-old/Pokermon
 	url = https://github.com/pumpncode/Pokermon.git
 [submodule "mods/Prism"]
-	path = mods/Prism
+	path = mods-old/Prism
 	url = https://github.com/pumpncode/Prism.git
 [submodule "mods/rcBalatro"]
-	path = mods/rcBalatro
+	path = mods-old/rcBalatro
 	url = https://github.com/pumpncode/rcBalatro.git
 [submodule "mods/rcBLib"]
-	path = mods/rcBLib
+	path = mods-old/rcBLib
 	url = https://github.com/pumpncode/rcBLib.git
 [submodule "mods/Redux-Arcanum"]
-	path = mods/Redux-Arcanum
+	path = mods-old/Redux-Arcanum
 	url = https://github.com/pumpncode/Redux-Arcanum.git
 [submodule "mods/reverie"]
-	path = mods/reverie
+	path = mods-old/reverie
 	url = https://github.com/pumpncode/reverie.git
 [submodule "mods/Revos-Vault---Balatro-Mod"]
-	path = mods/Revos-Vault---Balatro-Mod
+	path = mods-old/Revos-Vault---Balatro-Mod
 	url = https://github.com/pumpncode/Revos-Vault---Balatro-Mod.git
 [submodule "mods/RiftRaft"]
-	path = mods/RiftRaft
+	path = mods-old/RiftRaft
 	url = https://github.com/pumpncode/RiftRaft.git
 [submodule "mods/sarcpot-mod"]
-	path = mods/sarcpot-mod
+	path = mods-old/sarcpot-mod
 	url = https://github.com/pumpncode/sarcpot-mod.git
 [submodule "mods/SDM_0-s-Stuff"]
-	path = mods/SDM_0-s-Stuff
+	path = mods-old/SDM_0-s-Stuff
 	url = https://github.com/pumpncode/SDM_0-s-Stuff.git
 [submodule "mods/SeveredBalatro"]
-	path = mods/SeveredBalatro
+	path = mods-old/SeveredBalatro
 	url = https://github.com/pumpncode/SeveredBalatro.git
 [submodule "mods/Showdown"]
-	path = mods/Showdown
+	path = mods-old/Showdown
 	url = https://github.com/pumpncode/Showdown.git
 [submodule "mods/smods"]
-	path = mods/smods
+	path = mods-old/smods
 	url = https://github.com/pumpncode/smods.git
 [submodule "mods/Snow-s-Mods"]
-	path = mods/Snow-s-Mods
+	path = mods-old/Snow-s-Mods
 	url = https://github.com/pumpncode/Snow-s-Mods.git
 [submodule "mods/SpicyJokers"]
-	path = mods/SpicyJokers
+	path = mods-old/SpicyJokers
 	url = https://github.com/pumpncode/SpicyJokers.git
 [submodule "mods/suit-order"]
-	path = mods/suit-order
+	path = mods-old/suit-order
 	url = https://github.com/pumpncode/suit-order.git
 [submodule "mods/Talisman"]
-	path = mods/Talisman
+	path = mods-old/Talisman
 	url = https://github.com/pumpncode/Talisman.git
 [submodule "mods/Tesseract"]
-	path = mods/Tesseract
+	path = mods-old/Tesseract
 	url = https://github.com/pumpncode/Tesseract.git
 [submodule "mods/Tetrapak"]
-	path = mods/Tetrapak
+	path = mods-old/Tetrapak
 	url = https://github.com/pumpncode/Tetrapak.git
 [submodule "mods/The-World-Ends-With-Jimbo"]
-	path = mods/The-World-Ends-With-Jimbo
+	path = mods-old/The-World-Ends-With-Jimbo
 	url = https://github.com/pumpncode/The-World-Ends-With-Jimbo.git
 [submodule "mods/tiwmig-mod"]
-	path = mods/tiwmig-mod
+	path = mods-old/tiwmig-mod
 	url = https://github.com/pumpncode/tiwmig-mod.git
 [submodule "mods/TOGAPackBalatro"]
-	path = mods/TOGAPackBalatro
+	path = mods-old/TOGAPackBalatro
 	url = https://github.com/pumpncode/TOGAPackBalatro.git
 [submodule "mods/UnStable"]
-	path = mods/UnStable
+	path = mods-old/UnStable
 	url = https://github.com/pumpncode/UnStable.git
 [submodule "mods/UnStableEX"]
-	path = mods/UnStableEX
+	path = mods-old/UnStableEX
 	url = https://github.com/pumpncode/UnStableEX.git
 [submodule "mods/Warpzone"]
-	path = mods/Warpzone
+	path = mods-old/Warpzone
 	url = https://github.com/pumpncode/Warpzone.git

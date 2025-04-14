@@ -7,7 +7,7 @@ const {
 	stat
 } = Deno;
 const ROOT_DIR = cwd();
-const SUBMODULES_DIR = `${ROOT_DIR}/mods`;
+const SUBMODULES_DIR = `${ROOT_DIR}/mods-old`;
 
 // Check if the mods directory exists
 try {
