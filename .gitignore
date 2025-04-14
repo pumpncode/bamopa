@@ -480,3 +480,9 @@ xcuserdata/
 .lovelyignore
 lovely/
 smods/
+
+1/
+config/
+bmm_storage.db
+settings.jkr
+steam_autocloud.vdf
