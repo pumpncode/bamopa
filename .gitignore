@@ -476,3 +476,6 @@ xcuserdata/
 
 /node_modules
 .env
+
+.lovelyignore
+lovely
