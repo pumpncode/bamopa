@@ -205,96 +205,128 @@
 [submodule "Mods/NeatoJokers"]
 	path = Mods/NeatoJokers
 	url = https://github.com/pumpncode/NeatoJokers.git
+	branch = main
 [submodule "Mods/next-ante-preview"]
 	path = Mods/next-ante-preview
 	url = https://github.com/pumpncode/next-ante-preview.git
+	branch = main
 [submodule "Mods/no-laughing-matter"]
 	path = Mods/no-laughing-matter
 	url = https://github.com/pumpncode/no-laughing-matter.git
+	branch = main
 [submodule "Mods/Ortalab"]
 	path = Mods/Ortalab
 	url = https://github.com/pumpncode/Ortalab.git
+	branch = master
 [submodule "Mods/paperback"]
 	path = Mods/paperback
 	url = https://github.com/pumpncode/paperback.git
+	branch = main
 [submodule "Mods/Perkolating"]
 	path = Mods/Perkolating
 	url = https://github.com/pumpncode/Perkolating.git
+	branch = main
 [submodule "Mods/Plantain"]
 	path = Mods/Plantain
 	url = https://github.com/pumpncode/Plantain.git
+	branch = main
 [submodule "Mods/Pokermon"]
 	path = Mods/Pokermon
 	url = https://github.com/pumpncode/Pokermon.git
+	branch = main
 [submodule "Mods/Prism"]
 	path = Mods/Prism
 	url = https://github.com/pumpncode/Prism.git
+	branch = main
 [submodule "Mods/rcBalatro"]
 	path = Mods/rcBalatro
 	url = https://github.com/pumpncode/rcBalatro.git
+	branch = main
 [submodule "Mods/rcBLib"]
 	path = Mods/rcBLib
 	url = https://github.com/pumpncode/rcBLib.git
+	branch = main
 [submodule "Mods/Redux-Arcanum"]
 	path = Mods/Redux-Arcanum
 	url = https://github.com/pumpncode/Redux-Arcanum.git
+	branch = main
 [submodule "Mods/reverie"]
 	path = Mods/reverie
 	url = https://github.com/pumpncode/reverie.git
+	branch = main
 [submodule "Mods/Revos-Vault---Balatro-Mod"]
 	path = Mods/Revos-Vault---Balatro-Mod
 	url = https://github.com/pumpncode/Revos-Vault---Balatro-Mod.git
+	branch = main
 [submodule "Mods/RiftRaft"]
 	path = Mods/RiftRaft
 	url = https://github.com/pumpncode/RiftRaft.git
+	branch = main
 [submodule "Mods/sarcpot-mod"]
 	path = Mods/sarcpot-mod
 	url = https://github.com/pumpncode/sarcpot-mod.git
+	branch = main
 [submodule "Mods/SDM_0-s-Stuff"]
 	path = Mods/SDM_0-s-Stuff
 	url = https://github.com/pumpncode/SDM_0-s-Stuff.git
+	branch = main
 [submodule "Mods/SeveredBalatro"]
 	path = Mods/SeveredBalatro
 	url = https://github.com/pumpncode/SeveredBalatro.git
+	branch = main
 [submodule "Mods/Showdown"]
 	path = Mods/Showdown
 	url = https://github.com/pumpncode/Showdown.git
+	branch = main
 [submodule "Mods/smods"]
 	path = Mods/smods
 	url = https://github.com/pumpncode/smods.git
+	branch = main
 [submodule "Mods/Snow-s-Mods"]
 	path = Mods/Snow-s-Mods
 	url = https://github.com/pumpncode/Snow-s-Mods.git
+	branch = main
 [submodule "Mods/SpicyJokers"]
 	path = Mods/SpicyJokers
 	url = https://github.com/pumpncode/SpicyJokers.git
+	branch = main
 [submodule "Mods/suit-order"]
 	path = Mods/suit-order
 	url = https://github.com/pumpncode/suit-order.git
+	branch = main
 [submodule "Mods/Talisman"]
 	path = Mods/Talisman
 	url = https://github.com/pumpncode/Talisman.git
+	branch = main
 [submodule "Mods/Tesseract"]
 	path = Mods/Tesseract
 	url = https://github.com/pumpncode/Tesseract.git
+	branch = main
 [submodule "Mods/Tetrapak"]
 	path = Mods/Tetrapak
 	url = https://github.com/pumpncode/Tetrapak.git
+	branch = main
 [submodule "Mods/The-World-Ends-With-Jimbo"]
 	path = Mods/The-World-Ends-With-Jimbo
 	url = https://github.com/pumpncode/The-World-Ends-With-Jimbo.git
+	branch = main
 [submodule "Mods/tiwmig-mod"]
 	path = Mods/tiwmig-mod
 	url = https://github.com/pumpncode/tiwmig-mod.git
+	branch = main
 [submodule "Mods/TOGAPackBalatro"]
 	path = Mods/TOGAPackBalatro
 	url = https://github.com/pumpncode/TOGAPackBalatro.git
+	branch = main
 [submodule "Mods/UnStable"]
 	path = Mods/UnStable
 	url = https://github.com/pumpncode/UnStable.git
+	branch = main
 [submodule "Mods/UnStableEX"]
 	path = Mods/UnStableEX
 	url = https://github.com/pumpncode/UnStableEX.git
+	branch = main
 [submodule "Mods/Warpzone"]
 	path = Mods/Warpzone
 	url = https://github.com/pumpncode/Warpzone.git
+	branch = main
