@@ -67,9 +67,6 @@
 [submodule "Mods/Cosmos"]
 	path = Mods/Cosmos
 	url = https://github.com/pumpncode/Cosmos.git
-[submodule "Mods/Cryptid"]
-	path = Mods/Cryptid
-	url = https://github.com/pumpncode/Cryptid.git
 [submodule "Mods/D6-Jokers"]
 	path = Mods/D6-Jokers
 	url = https://github.com/pumpncode/D6-Jokers.git
