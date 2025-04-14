@@ -5,8 +5,8 @@
 # Get the root directory of the project
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
-# Change to the mods-old directory
-cd "$ROOT_DIR/mods-old" || { echo "Could not change to mods-old directory"; exit 1; }
+# Change to the Mods directory
+cd "$ROOT_DIR/Mods" || { echo "Could not change to Mods directory"; exit 1; }
 
 # Print summary of what we're about to do
 echo "Searching for git repositories in: $(pwd)"
@@ -17,7 +17,7 @@ echo "-------------------------------------------"
 SUBMODULES=$(find . -maxdepth 2 -type d -name ".git" -o -type f -name ".git" | sed 's/\/\.git$//' | sed 's/^\.\///')
 
 if [ -z "$SUBMODULES" ]; then
-  echo "No git repositories (submodules) found in mods-old directory."
+  echo "No git repositories (submodules) found in Mods directory."
   echo "Check if the submodules are initialized with 'git submodule status'"
   exit 1
 fi
@@ -29,7 +29,7 @@ for submodule in $SUBMODULES; do
   echo "Processing submodule: $submodule"
   
   # Change to the submodule directory
-  cd "$ROOT_DIR/mods-old/$submodule" || { echo "  Could not change to $submodule"; continue; }
+  cd "$ROOT_DIR/Mods/$submodule" || { echo "  Could not change to $submodule"; continue; }
   
   # Check if .gitignore exists
   if [ -f .gitignore ]; then
@@ -60,8 +60,8 @@ for submodule in $SUBMODULES; do
     echo "  No .gitignore file found"
   fi
   
-  # Return to mods-old directory for the next iteration
-  cd "$ROOT_DIR/mods-old" || { echo "Could not return to mods-old directory"; exit 1; }
+  # Return to Mods directory for the next iteration
+  cd "$ROOT_DIR/Mods" || { echo "Could not return to Mods directory"; exit 1; }
 done
 
 echo "Done! Duplicate .lovelyignore entries have been removed from all .gitignore files."

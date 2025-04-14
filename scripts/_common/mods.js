@@ -42,7 +42,7 @@ const {
  * @property {string[]} [provides] - Optional list of provided mod capabilities
  */
 
-const modsFolderPath = join(cwd(), "mods-old");
+const modsFolderPath = join(cwd(), "Mods");
 
 const walkOptions = {
 	exts: [".lua", ".json"],
