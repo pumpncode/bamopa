@@ -12,7 +12,8 @@ const ALWAYS_FINE_MODS = ["Talisman", "ExtraCredit"];
 const ALWAYS_DISABLED_MODS = [
 	"Betmma Abilities",
 	"Betmma Spells",
-	"Mika's Mod Collection"
+	"Mika's Mod Collection",
+	"Reverie"
 ];
 
 // Mods that are always considered fine (won't be tested)
