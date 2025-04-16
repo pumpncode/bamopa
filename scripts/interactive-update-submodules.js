@@ -1,3 +1,4 @@
+/* eslint-disable max-statements */
 import { Confirm } from "@cliffy/prompt";
 
 const {
@@ -59,6 +60,8 @@ const runCommand = async function (
  */
 const processSubmodule = async function (submodulePath) {
 	console.info(submodulePath);
+	await runCommand("git", ["fetch", "upstream"], submodulePath);
+
 	// Get the current branch name first without logging
 	const branchResult = await runCommand("git", [
 		"rev-parse",
