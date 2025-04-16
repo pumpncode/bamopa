@@ -30,8 +30,10 @@ const FINE_MODS_FILE = "fine_mods.json";
 /**
  * Load fine mods from file
  *
- * @returns {Promise<Array<string>>}
+ * @returns {Promise<Array<string>>} - A promise that resolves to an array of fine mod names.
  * @example
+ * const fineMods = await loadFineMods();
+ * console.log(fineMods);
  */
 const loadFineMods = async () => {
 	try {
@@ -52,9 +54,10 @@ const loadFineMods = async () => {
 /**
  * Save fine mods to file
  *
- * @param {Array<string>} fineMods - Array of fine mod names
+ * @param {Set<string>} fineMods - Set of fine mod names
  * @returns {Promise<void>}
  * @example
+ * await saveFineMods(new Set(["Mod1", "Mod2"]));
  */
 const saveFineMods = async (fineMods) => {
 	try {

@@ -30,6 +30,8 @@ catch (error) {
  * @param {object} [options] - Additional options for the command.
  * @returns {Promise<string>} - The output of the command.
  * @example
+ * const output = await runCommand(["ls", "-l"]);
+ * console.log(output);
  */
 const runCommand = async (cmd, options = {}) => {
 	const command = new Command(cmd[0], {
@@ -48,6 +50,8 @@ const runCommand = async (cmd, options = {}) => {
  * @param {string} repoUrl - The URL of the repository.
  * @returns {Promise<string|null>} - The original repository owner or null if not found.
  * @example
+ * const owner = await getOriginalRepoOwner("https://github.com/owner/repo");
+ * console.log(owner);
  */
 const getOriginalRepoOwner = async (repoUrl) => {
 	try {

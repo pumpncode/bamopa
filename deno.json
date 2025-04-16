@@ -6,7 +6,8 @@
 		"list-submodule-branches": "deno run -R --allow-run ./scripts/list-submodule-branches.js",
 		"add-upstream-remote": "deno run -R --allow-run ./scripts/add-upstream-remote.js",
 		"list-mods": "deno run -R ./scripts/list-mods.js",
-		"binary-search": "deno run -R -W --allow-run ./scripts/binary-search.js"
+		"binary-search": "deno run -R -W --allow-run ./scripts/binary-search.js",
+		"interactive-update-submodules": "deno run -R --allow-run ./scripts/interactive-update-submodules.js"
 	},
 	"fmt": {
 		"options": {

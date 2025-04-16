@@ -30,6 +30,7 @@ catch (error) {
  * @param {object} [options] - Additional options for the command.
  * @returns {Promise<string>} - The output of the command.
  * @example
+ * await runCommand(["git", "-C", "/path/to/repo", "status"]);
  */
 const runCommand = async (cmd, options = {}) => {
 	const command = new Command(cmd[0], {
@@ -45,8 +46,8 @@ const runCommand = async (cmd, options = {}) => {
 // Loop through all directories in the mods folder
 for await (const directoryEntry of readDir(SUBMODULES_DIR)) {
 	if (directoryEntry.isDirectory) {
-		const modDir = `${SUBMODULES_DIR}/${directoryEntry.name}`;
-		const gitDirectory = `${modDir}/.git`;
+		const modDirectory = `${SUBMODULES_DIR}/${directoryEntry.name}`;
+		const gitDirectory = `${modDirectory}/.git`;
 
 		try {
 			await stat(gitDirectory);
@@ -54,7 +55,7 @@ for await (const directoryEntry of readDir(SUBMODULES_DIR)) {
 				const allBranchesOutput = await runCommand([
 					"git",
 					"-C",
-					modDir,
+					modDirectory,
 					"branch",
 					"-a"
 				]);
