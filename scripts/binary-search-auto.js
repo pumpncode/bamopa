@@ -2,7 +2,7 @@
 /* eslint-disable max-lines-per-function -- ignore */
 
 import { exists } from "@std/fs";
-import { dirname } from "@std/path";
+import { dirname, join } from "@std/path";
 import { mods } from "./_common/_exports.js";
 import { spawn } from "node:child_process";
 import { sleep } from "@radashi-org/radashi";
@@ -12,7 +12,8 @@ const {
 	makeTempFile,
 	readTextFile,
 	remove,
-	writeTextFile
+	writeTextFile,
+	cwd
 } = Deno;
 
 // Configuration
@@ -406,6 +407,12 @@ const enforceModRules = (enabledMods) => {
 	return updatedEnabledMods;
 };
 
+const modsFolderPath = join(cwd(), "Mods");
+const balatrobotPath = join(modsFolderPath, "csc470-balatrobot");
+const balatrobotConfigLuaPath = join(balatrobotPath, "config.lua");
+
+
+
 /**
  * Run the crash test bot and wait for results
  * Uses the csc470-balatrobot Lua API to run random actions until crash
@@ -417,12 +424,10 @@ const enforceModRules = (enabledMods) => {
 const runCrashTest = async (roundNumber) => {
 	console.info(`Starting crash test round ${roundNumber}...`);
 
-	// Define the path to the csc470-balatrobot module
-	const modPath = new URL("../Mods/csc470-balatrobot", import.meta.url).pathname;
-	const configLuaPath = `${modPath}/config.lua`;
+	
 
 	// Backup the original config file
-	const originalConfig = await readTextFile(configLuaPath);
+	const originalConfig = await readTextFile(balatrobotConfigLuaPath);
 
 	// Create a custom crash test config
 	// Using a different port to avoid conflicts with any running bot
@@ -446,14 +451,14 @@ const runCrashTest = async (roundNumber) => {
 
 	// Write our custom config to the file
 	try {
-		await writeTextFile(configLuaPath, crashTestConfig);
+		await writeTextFile(balatrobotConfigLuaPath, crashTestConfig);
 		console.info("Updated Balatrobot config for crash testing");
 	}
 	catch (error) {
 		console.error("Failed to update Balatrobot config:", error);
 		// Restore original config on error
 		try {
-			await writeTextFile(configLuaPath, originalConfig);
+			await writeTextFile(balatrobotConfigLuaPath, originalConfig);
 		}
 		catch {
 			// Ignore errors when restoring
@@ -617,7 +622,7 @@ const runCrashTest = async (roundNumber) => {
 
 				// Restore original config
 				try {
-					await writeTextFile(configLuaPath, originalConfig);
+					await writeTextFile(balatrobotConfigLuaPath, originalConfig);
 					console.info("Restored original Balatrobot config");
 				}
 				catch (error) {
@@ -654,7 +659,7 @@ const runCrashTest = async (roundNumber) => {
 
 	// Restore original config
 	try {
-		await writeTextFile(configLuaPath, originalConfig);
+		await writeTextFile(balatrobotConfigLuaPath, originalConfig);
 	}
 	catch {
 		// Ignore errors when restoring

@@ -14,7 +14,8 @@ const ALWAYS_DISABLED_MODS = [
 	"Betmma Spells",
 	"Mika's Mod Collection",
 	"Reverie",
-	"Pokermon"
+	"Pokermon",
+	"Balatrobot"
 ];
 
 // Mods that are always considered fine (won't be tested)
