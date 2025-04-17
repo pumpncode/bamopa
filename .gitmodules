@@ -412,3 +412,7 @@ branch = main
 path = Mods/Warpzone
 url = https://github.com/pumpncode/Warpzone.git
 branch = main
+[submodule "Mods/balatrobot"]
+path = Mods/balatrobot
+url = https://github.com/pumpncode/balatrobot.git
+branch = main
