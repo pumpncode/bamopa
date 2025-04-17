@@ -86,7 +86,7 @@ const main = async function () {
 
 		// If there are no changes, silently skip this submodule
 		if (!changeCheckResult.stdout.trim()) {
-			return;
+			continue;
 		}
 
 		// Only log info if there are updates available
