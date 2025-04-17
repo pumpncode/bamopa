@@ -1,5 +1,7 @@
 import { join } from "@std/path";
 
+import { submodules } from "./_common/_exports.js";
+
 const { cwd, env } = Deno;
 
 // Define constants for repeated values
@@ -92,110 +94,6 @@ const getGitHubDefaultBranch = async (owner, repo) => {
 		console.error(`Error fetching GitHub API: ${errorObject.message}`);
 
 		return null;
-	}
-};
-
-/**
- * Get list of submodules from .gitmodules file
- *
- * @returns {Promise<string[]>} - Array of submodule names
- * @example
- * const submodules = await getSubmodulesList();
- * console.log('Submodules:', submodules);
- */
-const getSubmodulesList = async () => {
-	let submodules = [];
-
-	try {
-		const result = await runCommand([
-			GIT_COMMAND,
-			CONFIG_FLAG,
-			"-f",
-			GITMODULES_PATH,
-			"--get-regexp",
-			String.raw`submodule\..*\.path`
-		]);
-
-		// Parse the output into submodule names
-		submodules = result.split("\n").map((line) => {
-			const [, submodule] = line.split(".");
-
-			return submodule;
-		}).filter(Boolean);
-	}
-	catch (error) {
-		const errorObject = error instanceof Error ? error : new Error(String(error));
-
-		console.error(`Failed to get submodules: ${errorObject.message}`);
-
-		return [];
-	}
-
-	return submodules;
-};
-
-/**
- * Get submodule path and URL
- *
- * @param {string} submodule - The submodule name
- * @returns {Promise<{path: string, url: string}>} - Path and URL for the submodule
- * @example
- * const info = await getSubmoduleInfo('my-submodule');
- * console.log('Submodule info:', info);
- */
-const getSubmoduleInfo = async (submodule) => {
-	const path = await runCommand([
-		GIT_COMMAND,
-		CONFIG_FLAG,
-		"-f",
-		GITMODULES_PATH,
-		"--get",
-		`submodule.${submodule}.path`
-	]);
-
-	const url = await runCommand([
-		GIT_COMMAND,
-		CONFIG_FLAG,
-		"-f",
-		GITMODULES_PATH,
-		"--get",
-		`submodule.${submodule}.url`
-	]);
-
-	return {
-		path,
-		url
-	};
-};
-
-/**
- * Checks if a branch is specified in .gitmodules
- *
- * @param {string} submodule - The submodule name
- * @returns {Promise<string>} - The branch name or empty string
- * @example
- * const branch = await getConfiguredBranch('my-submodule');
- * console.log('Configured branch:', branch);
- */
-const getConfiguredBranch = async (submodule) => {
-	try {
-		const branch = await runCommand([
-			GIT_COMMAND,
-			CONFIG_FLAG,
-			"-f",
-			GITMODULES_PATH,
-			"--get",
-			`submodule.${submodule}.branch`
-		]);
-
-		if (branch) {
-			console.info(`Using branch from gitmodules: ${branch}`);
-		}
-
-		return branch;
-	}
-	catch {
-		return "";
 	}
 };
 
@@ -442,25 +340,21 @@ const checkoutSubmoduleBranch = async (path, defaultBranch, submodule) => {
 const updateSubmoduleBranches = async () => {
 	console.info("Processing submodules...");
 
-	// Get submodules from .gitmodules file
-	const submodules = await getSubmodulesList();
-
-	if (submodules.length === 0) {
-		return;
-	}
-
 	// Process each submodule
-	for (const sub of submodules) {
-		// Get path and URL for this submodule
-		const { path, url } = await getSubmoduleInfo(sub);
-
+	for (
+		const {
+			branch,
+			name,
+			path,
+			url
+		} of submodules
+	) {
 		console.info("-----------------------------");
-		console.info(`Submodule: ${sub}`);
+		console.info(`Submodule: ${name}`);
 		console.info(`Path: ${path}`);
 		console.info(`URL: ${url}`);
 
-		// Check if a branch is already specified
-		let defaultBranch = await getConfiguredBranch(sub);
+		let defaultBranch = branch;
 
 		// If no branch is specified, determine it
 		if (!defaultBranch) {
@@ -468,18 +362,18 @@ const updateSubmoduleBranches = async () => {
 
 			// If still unable to determine, skip this submodule
 			if (!defaultBranch) {
-				console.info(`Could not determine default branch for ${sub} (URL: ${url}). Skipping...`);
+				console.info(`Could not determine default branch for ${name} (URL: ${url}). Skipping...`);
 				continue;
 			}
 
-			console.info(`Default branch for ${sub} determined dynamically is: ${defaultBranch}`);
+			console.info(`Default branch for ${name} determined dynamically is: ${defaultBranch}`);
 
 			// Update .gitmodules and sync the submodule
-			await updateSubmoduleConfig(sub, path, defaultBranch);
+			await updateSubmoduleConfig(name, path, defaultBranch);
 		}
 
 		// Now checkout the branch in the submodule
-		await checkoutSubmoduleBranch(path, defaultBranch, sub);
+		await checkoutSubmoduleBranch(path, defaultBranch, name);
 	}
 };
 

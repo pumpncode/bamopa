@@ -7,7 +7,8 @@
 		"add-upstream-remote": "deno run -R --allow-run ./scripts/add-upstream-remote.js",
 		"list-mods": "deno run -R ./scripts/list-mods.js",
 		"binary-search": "deno run -R -W --allow-run ./scripts/binary-search.js",
-		"interactive-update-submodules": "deno run -R --allow-run ./scripts/interactive-update-submodules.js"
+		"interactive-update-submodules": "deno run -R --allow-run ./scripts/interactive-update-submodules.js",
+		"update-submodule-branches": "deno run -R --allow-run ./scripts/update-submodule-branches.js",
 	},
 	"fmt": {
 		"options": {
@@ -54,6 +55,7 @@
 	],
 	"imports": {
 		"@cliffy/prompt": "jsr:@cliffy/prompt@^1.0.0-rc.7",
+		"@pumpn/gicopast": "jsr:@pumpn/gicopast@^0.1.0",
 		"@radashi-org/radashi": "jsr:@radashi-org/radashi@^12.4.0",
 		"@std/fs": "jsr:@std/fs@^1.0.16",
 		"@std/path": "jsr:@std/path@^1.0.8",

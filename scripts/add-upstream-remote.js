@@ -1,27 +1,8 @@
-import { join } from "@std/path";
+import { submodules } from "./_common/_exports.js";
 
 const {
-	Command,
-	cwd,
-	errors,
-	readTextFile,
-	stat
+	Command
 } = Deno;
-
-const gitmodulesFilePath = join(cwd(), ".gitmodules");
-
-try {
-	await stat(gitmodulesFilePath);
-}
-catch (error) {
-	if (error instanceof errors.NotFound) {
-		console.error(`Error: The .gitmodules file does not exist at ${gitmodulesFilePath}`);
-		Deno.exit(1);
-	}
-	else {
-		throw error;
-	}
-}
 
 /**
  * Executes a command and returns its output as a string.
@@ -73,23 +54,13 @@ const getOriginalRepoOwner = async (repoUrl) => {
 	}
 };
 
-const gitmodulesContent = await readTextFile(gitmodulesFilePath);
-const submoduleRegex = /\[submodule "(?<name>.+?)"\]\n\s+path = (?<path>.+)\n\s+url = (?<url>.+)\n/gv;
-
-let match;
-
-while ((match = submoduleRegex.exec(gitmodulesContent)) !== null) {
-	const { groups } = match;
-
-	if (!groups) {
-		console.warn("Skipping invalid submodule entry.");
-		continue;
-	}
-
+for (
 	const {
-		name, path, url
-	} = groups;
-
+		name,
+		path,
+		url
+	} of submodules
+) {
 	console.info(`Processing submodule: ${name}`);
 
 	try {
