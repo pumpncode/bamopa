@@ -10,7 +10,7 @@
 		"interactive-update-submodules": "deno run -R --allow-run ./scripts/interactive-update-submodules.js",
 		"update-submodule-branches": "deno run -R --allow-run ./scripts/update-submodule-branches.js",
 		"sort-submodules": "deno run -R -W --allow-run ./scripts/sort-submodules.js",
-		"binary-search-auto": "deno run -R -W -E --allow-run ./scripts/binary-search-auto.js"
+		"binary-search-auto": "deno run -R -W -E -N --allow-run ./scripts/binary-search-auto.js"
 	},
 	"fmt": {
 		"options": {
@@ -53,7 +53,9 @@
 	},
 	"unstable": [
 		"temporal",
-		"kv"
+		"kv",
+		"http",
+		"net"
 	],
 	"imports": {
 		"@cliffy/prompt": "jsr:@cliffy/prompt@^1.0.0-rc.7",
