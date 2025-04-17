@@ -9,6 +9,7 @@
 		"binary-search": "deno run -R -W --allow-run ./scripts/binary-search.js",
 		"interactive-update-submodules": "deno run -R --allow-run ./scripts/interactive-update-submodules.js",
 		"update-submodule-branches": "deno run -R --allow-run ./scripts/update-submodule-branches.js",
+		"sort-submodules": "deno run -R -W --allow-run ./scripts/sort-submodules.js"
 	},
 	"fmt": {
 		"options": {
