@@ -3,12 +3,8 @@
 
 import { exists } from "@std/fs";
 import { dirname } from "@std/path";
-
 import { mods } from "./_common/_exports.js";
-
-// Spawn process to run the bot
 import { spawn } from "node:child_process";
-
 import { sleep } from "@radashi-org/radashi";
 
 const {
@@ -54,7 +50,7 @@ const defaultBotPort = 12_348;
 const deckType = "Blue Deck";
 
 // Mods that are always considered fine (won't be tested)
-let ALWAYS_FINE_MODS = ["Talisman", "ExtraCredit"];
+let ALWAYS_FINE_MODS = ["Talisman", "ExtraCredit", "Balatrobot"];
 
 // Mods that are always considered problematic (will always be disabled)
 const ALWAYS_DISABLED_MODS = [
