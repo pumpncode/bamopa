@@ -1,419 +1,414 @@
 [submodule "Mods/All-In-Jest"]
-	path = Mods/All-In-Jest
-	url = https://github.com/pumpncode/All-In-Jest.git
-	branch = main
+path = Mods/All-In-Jest
+url = https://github.com/pumpncode/All-In-Jest.git
+branch = main
 
 [submodule "Mods/Balatro_HighCardMod"]
-	path = Mods/Balatro_HighCardMod
-	url = https://github.com/pumpncode/Balatro_HighCardMod.git
-	branch = main
+path = Mods/Balatro_HighCardMod
+url = https://github.com/pumpncode/Balatro_HighCardMod.git
+branch = main
 
 [submodule "Mods/balatro_reverse_tarots"]
-	path = Mods/balatro_reverse_tarots
-	url = https://github.com/pumpncode/balatro_reverse_tarots.git
-	branch = master
+path = Mods/balatro_reverse_tarots
+url = https://github.com/pumpncode/balatro_reverse_tarots.git
+branch = master
 
 [submodule "Mods/Balatro---Themed-Jokers"]
-	path = Mods/Balatro---Themed-Jokers
-	url = https://github.com/pumpncode/Balatro---Themed-Jokers.git
-	branch = main
+path = Mods/Balatro---Themed-Jokers
+url = https://github.com/pumpncode/Balatro---Themed-Jokers.git
+branch = main
 
 [submodule "Mods/Balatro-7DeadlyDecks"]
-	path = Mods/Balatro-7DeadlyDecks
-	url = https://github.com/pumpncode/Balatro-7DeadlyDecks.git
-	branch = main
+path = Mods/Balatro-7DeadlyDecks
+url = https://github.com/pumpncode/Balatro-7DeadlyDecks.git
+branch = main
 
 [submodule "Mods/Balatro-Aikoyoris-Shenanigans"]
-	path = Mods/Balatro-Aikoyoris-Shenanigans
-	url = https://github.com/pumpncode/Balatro-Aikoyoris-Shenanigans.git
-	branch = main
+path = Mods/Balatro-Aikoyoris-Shenanigans
+url = https://github.com/pumpncode/Balatro-Aikoyoris-Shenanigans.git
+branch = main
 
 [submodule "Mods/Balatro-Draft"]
-	path = Mods/Balatro-Draft
-	url = https://github.com/pumpncode/Balatro-Draft.git
-	branch = main
+path = Mods/Balatro-Draft
+url = https://github.com/pumpncode/Balatro-Draft.git
+branch = main
 
 [submodule "Mods/Balatro-Hevven"]
-	path = Mods/Balatro-Hevven
-	url = https://github.com/pumpncode/Balatro-Hevven.git
-	branch = main
+path = Mods/Balatro-Hevven
+url = https://github.com/pumpncode/Balatro-Hevven.git
+branch = main
 
 [submodule "Mods/balatro-highest-priestess"]
-	path = Mods/balatro-highest-priestess
-	url = https://github.com/pumpncode/balatro-highest-priestess.git
-	branch = main
+path = Mods/balatro-highest-priestess
+url = https://github.com/pumpncode/balatro-highest-priestess.git
+branch = main
 
 [submodule "Mods/Balatro-Jokers-Plus"]
-	path = Mods/Balatro-Jokers-Plus
-	url = https://github.com/pumpncode/Balatro-Jokers-Plus.git
-	branch = main
+path = Mods/Balatro-Jokers-Plus
+url = https://github.com/pumpncode/Balatro-Jokers-Plus.git
+branch = main
 
 [submodule "Mods/balatro-pampa-joker-pack"]
-	path = Mods/balatro-pampa-joker-pack
-	url = https://github.com/pumpncode/balatro-pampa-joker-pack.git
-	branch = main
+path = Mods/balatro-pampa-joker-pack
+url = https://github.com/pumpncode/balatro-pampa-joker-pack.git
+branch = main
 
 [submodule "Mods/balatro-plus"]
-	path = Mods/balatro-plus
-	url = https://github.com/pumpncode/balatro-plus.git
-	branch = main
+path = Mods/balatro-plus
+url = https://github.com/pumpncode/balatro-plus.git
+branch = main
 
 [submodule "Mods/BalatroBakery"]
-	path = Mods/BalatroBakery
-	url = https://github.com/pumpncode/BalatroBakery.git
-	branch = main
-
-[submodule "Mods/balatrobot"]
-	path = Mods/balatrobot
-	url = https://github.com/pumpncode/balatrobot.git
-	branch = main
+path = Mods/BalatroBakery
+url = https://github.com/pumpncode/BalatroBakery.git
+branch = main
 
 [submodule "Mods/BalatroMods"]
-	path = Mods/BalatroMods
-	url = https://github.com/pumpncode/BalatroMods.git
-	branch = main
+path = Mods/BalatroMods
+url = https://github.com/pumpncode/BalatroMods.git
+branch = main
 
 [submodule "Mods/Bird-Jokers"]
-	path = Mods/Bird-Jokers
-	url = https://github.com/pumpncode/Bird-Jokers.git
-	branch = main
+path = Mods/Bird-Jokers
+url = https://github.com/pumpncode/Bird-Jokers.git
+branch = main
 
 [submodule "Mods/BossJokers"]
-	path = Mods/BossJokers
-	url = https://github.com/pumpncode/BossJokers.git
-	branch = main
+path = Mods/BossJokers
+url = https://github.com/pumpncode/BossJokers.git
+branch = main
 
 [submodule "Mods/Buffoonery"]
-	path = Mods/Buffoonery
-	url = https://github.com/pumpncode/Buffoonery.git
-	branch = main
+path = Mods/Buffoonery
+url = https://github.com/pumpncode/Buffoonery.git
+branch = main
 
 [submodule "Mods/CardSleeves"]
-	path = Mods/CardSleeves
-	url = https://github.com/pumpncode/CardSleeves.git
-	branch = main
+path = Mods/CardSleeves
+url = https://github.com/pumpncode/CardSleeves.git
+branch = main
 
 [submodule "Mods/CelesteCardCollection"]
-	path = Mods/CelesteCardCollection
-	url = https://github.com/pumpncode/CelesteCardCollection.git
-	branch = main
+path = Mods/CelesteCardCollection
+url = https://github.com/pumpncode/CelesteCardCollection.git
+branch = main
 
 [submodule "Mods/Ceres"]
-	path = Mods/Ceres
-	url = https://github.com/pumpncode/Ceres.git
-	branch = main
+path = Mods/Ceres
+url = https://github.com/pumpncode/Ceres.git
+branch = main
 
 [submodule "Mods/Challenger-Deep"]
-	path = Mods/Challenger-Deep
-	url = https://github.com/pumpncode/Challenger-Deep.git
-	branch = main
+path = Mods/Challenger-Deep
+url = https://github.com/pumpncode/Challenger-Deep.git
+branch = main
 
 [submodule "Mods/CheesyJokers"]
-	path = Mods/CheesyJokers
-	url = https://github.com/pumpncode/CheesyJokers.git
-	branch = main
+path = Mods/CheesyJokers
+url = https://github.com/pumpncode/CheesyJokers.git
+branch = main
 
 [submodule "Mods/Cosmos"]
-	path = Mods/Cosmos
-	url = https://github.com/pumpncode/Cosmos.git
-	branch = main
+path = Mods/Cosmos
+url = https://github.com/pumpncode/Cosmos.git
+branch = main
 
 [submodule "Mods/D6-Jokers"]
-	path = Mods/D6-Jokers
-	url = https://github.com/pumpncode/D6-Jokers.git
-	branch = main
+path = Mods/D6-Jokers
+url = https://github.com/pumpncode/D6-Jokers.git
+branch = main
 
 [submodule "Mods/DreadJokers"]
-	path = Mods/DreadJokers
-	url = https://github.com/pumpncode/DreadJokers.git
-	branch = main
+path = Mods/DreadJokers
+url = https://github.com/pumpncode/DreadJokers.git
+branch = main
 
 [submodule "Mods/Emporium"]
-	path = Mods/Emporium
-	url = https://github.com/pumpncode/Emporium.git
-	branch = main
+path = Mods/Emporium
+url = https://github.com/pumpncode/Emporium.git
+branch = main
 
 [submodule "Mods/ExtraCredit"]
-	path = Mods/ExtraCredit
-	url = https://github.com/pumpncode/ExtraCredit.git
-	branch = main
+path = Mods/ExtraCredit
+url = https://github.com/pumpncode/ExtraCredit.git
+branch = main
 
 [submodule "Mods/Familiar"]
-	path = Mods/Familiar
-	url = https://github.com/pumpncode/Familiar.git
-	branch = BetterCalc-Fixes
+path = Mods/Familiar
+url = https://github.com/pumpncode/Familiar.git
+branch = BetterCalc-Fixes
 
 [submodule "Mods/Fusion-Jokers"]
-	path = Mods/Fusion-Jokers
-	url = https://github.com/pumpncode/Fusion-Jokers.git
-	branch = main
+path = Mods/Fusion-Jokers
+url = https://github.com/pumpncode/Fusion-Jokers.git
+branch = main
 
 [submodule "Mods/Galdur"]
-	path = Mods/Galdur
-	url = https://github.com/pumpncode/Galdur.git
-	branch = master
+path = Mods/Galdur
+url = https://github.com/pumpncode/Galdur.git
+branch = master
 
 [submodule "Mods/GARBSHIT"]
-	path = Mods/GARBSHIT
-	url = https://github.com/pumpncode/GARBSHIT.git
-	branch = main
+path = Mods/GARBSHIT
+url = https://github.com/pumpncode/GARBSHIT.git
+branch = main
 
 [submodule "Mods/Gemstones"]
-	path = Mods/Gemstones
-	url = https://github.com/pumpncode/Gemstones.git
-	branch = main
+path = Mods/Gemstones
+url = https://github.com/pumpncode/Gemstones.git
+branch = main
 
 [submodule "Mods/Grim"]
-	path = Mods/Grim
-	url = https://github.com/pumpncode/Grim.git
-	branch = main
+path = Mods/Grim
+url = https://github.com/pumpncode/Grim.git
+branch = main
 
 [submodule "Mods/Handsome-Devils-Vanilla-mod-"]
-	path = Mods/Handsome-Devils-Vanilla-mod-
-	url = https://github.com/pumpncode/Handsome-Devils-Vanilla-mod-.git
-	branch = main
+path = Mods/Handsome-Devils-Vanilla-mod-
+url = https://github.com/pumpncode/Handsome-Devils-Vanilla-mod-.git
+branch = main
 
 [submodule "Mods/Item-Remover"]
-	path = Mods/Item-Remover
-	url = https://github.com/pumpncode/Item-Remover.git
-	branch = main
+path = Mods/Item-Remover
+url = https://github.com/pumpncode/Item-Remover.git
+branch = main
 
 [submodule "Mods/JankJonklers"]
-	path = Mods/JankJonklers
-	url = https://github.com/pumpncode/JankJonklers.git
-	branch = main
+path = Mods/JankJonklers
+url = https://github.com/pumpncode/JankJonklers.git
+branch = main
 
 [submodule "Mods/Jimbos-Histories"]
-	path = Mods/Jimbos-Histories
-	url = https://github.com/pumpncode/Jimbos-Histories.git
-	branch = main
+path = Mods/Jimbos-Histories
+url = https://github.com/pumpncode/Jimbos-Histories.git
+branch = main
 
 [submodule "Mods/Joker-Evolution"]
-	path = Mods/Joker-Evolution
-	url = https://github.com/pumpncode/Joker-Evolution.git
-	branch = main
+path = Mods/Joker-Evolution
+url = https://github.com/pumpncode/Joker-Evolution.git
+branch = main
 
 [submodule "Mods/JokerDisplay"]
-	path = Mods/JokerDisplay
-	url = https://github.com/pumpncode/JokerDisplay.git
-	branch = main
+path = Mods/JokerDisplay
+url = https://github.com/pumpncode/JokerDisplay.git
+branch = main
 
 [submodule "Mods/JokerHub"]
-	path = Mods/JokerHub
-	url = https://github.com/pumpncode/JokerHub.git
-	branch = main
+path = Mods/JokerHub
+url = https://github.com/pumpncode/JokerHub.git
+branch = main
 
 [submodule "Mods/JokerSellValue"]
-	path = Mods/JokerSellValue
-	url = https://github.com/pumpncode/JokerSellValue.git
-	branch = main
+path = Mods/JokerSellValue
+url = https://github.com/pumpncode/JokerSellValue.git
+branch = main
 
 [submodule "Mods/kcvanilla"]
-	path = Mods/kcvanilla
-	url = https://github.com/pumpncode/kcvanilla.git
-	branch = master
+path = Mods/kcvanilla
+url = https://github.com/pumpncode/kcvanilla.git
+branch = master
 
 [submodule "Mods/Kino"]
-	path = Mods/Kino
-	url = https://github.com/pumpncode/Kino.git
-	branch = main
+path = Mods/Kino
+url = https://github.com/pumpncode/Kino.git
+branch = main
 
 [submodule "Mods/LobotomyCorp"]
-	path = Mods/LobotomyCorp
-	url = https://github.com/pumpncode/LobotomyCorp.git
-	branch = main
+path = Mods/LobotomyCorp
+url = https://github.com/pumpncode/LobotomyCorp.git
+branch = main
 
 [submodule "Mods/luckyjimbos"]
-	path = Mods/luckyjimbos
-	url = https://github.com/pumpncode/luckyjimbos.git
-	branch = main
+path = Mods/luckyjimbos
+url = https://github.com/pumpncode/luckyjimbos.git
+branch = main
 
 [submodule "Mods/Maximus"]
-	path = Mods/Maximus
-	url = https://github.com/pumpncode/Maximus.git
-	branch = main
+path = Mods/Maximus
+url = https://github.com/pumpncode/Maximus.git
+branch = main
 
 [submodule "Mods/MikasBalatro"]
-	path = Mods/MikasBalatro
-	url = https://github.com/pumpncode/MikasBalatro.git
-	branch = main
+path = Mods/MikasBalatro
+url = https://github.com/pumpncode/MikasBalatro.git
+branch = main
 
 [submodule "Mods/Mistigris"]
-	path = Mods/Mistigris
-	url = https://github.com/pumpncode/Mistigris.git
-	branch = main
+path = Mods/Mistigris
+url = https://github.com/pumpncode/Mistigris.git
+branch = main
 
 [submodule "Mods/MoreFluff"]
-	path = Mods/MoreFluff
-	url = https://github.com/pumpncode/MoreFluff.git
-	branch = main
+path = Mods/MoreFluff
+url = https://github.com/pumpncode/MoreFluff.git
+branch = main
 
 [submodule "Mods/Mossed"]
-	path = Mods/Mossed
-	url = https://github.com/pumpncode/Mossed.git
-	branch = main
+path = Mods/Mossed
+url = https://github.com/pumpncode/Mossed.git
+branch = main
 
 [submodule "Mods/my_balatro_mods"]
-	path = Mods/my_balatro_mods
-	url = https://github.com/pumpncode/my_balatro_mods.git
-	branch = main
+path = Mods/my_balatro_mods
+url = https://github.com/pumpncode/my_balatro_mods.git
+branch = main
 
 [submodule "Mods/NeatoJokers"]
-	path = Mods/NeatoJokers
-	url = https://github.com/pumpncode/NeatoJokers.git
-	branch = main
+path = Mods/NeatoJokers
+url = https://github.com/pumpncode/NeatoJokers.git
+branch = main
 
 [submodule "Mods/next-ante-preview"]
-	path = Mods/next-ante-preview
-	url = https://github.com/pumpncode/next-ante-preview.git
-	branch = main
+path = Mods/next-ante-preview
+url = https://github.com/pumpncode/next-ante-preview.git
+branch = main
 
 [submodule "Mods/no-laughing-matter"]
-	path = Mods/no-laughing-matter
-	url = https://github.com/pumpncode/no-laughing-matter.git
-	branch = main
+path = Mods/no-laughing-matter
+url = https://github.com/pumpncode/no-laughing-matter.git
+branch = main
 
 [submodule "Mods/Ortalab"]
-	path = Mods/Ortalab
-	url = https://github.com/pumpncode/Ortalab.git
-	branch = master
+path = Mods/Ortalab
+url = https://github.com/pumpncode/Ortalab.git
+branch = master
 
 [submodule "Mods/paperback"]
-	path = Mods/paperback
-	url = https://github.com/pumpncode/paperback.git
-	branch = main
+path = Mods/paperback
+url = https://github.com/pumpncode/paperback.git
+branch = main
 
 [submodule "Mods/Perkolating"]
-	path = Mods/Perkolating
-	url = https://github.com/pumpncode/Perkolating.git
-	branch = main
+path = Mods/Perkolating
+url = https://github.com/pumpncode/Perkolating.git
+branch = main
 
 [submodule "Mods/Plantain"]
-	path = Mods/Plantain
-	url = https://github.com/pumpncode/Plantain.git
-	branch = main
+path = Mods/Plantain
+url = https://github.com/pumpncode/Plantain.git
+branch = main
 
 [submodule "Mods/Pokermon"]
-	path = Mods/Pokermon
-	url = https://github.com/pumpncode/Pokermon.git
-	branch = main
+path = Mods/Pokermon
+url = https://github.com/pumpncode/Pokermon.git
+branch = main
 
 [submodule "Mods/Prism"]
-	path = Mods/Prism
-	url = https://github.com/pumpncode/Prism.git
-	branch = main
+path = Mods/Prism
+url = https://github.com/pumpncode/Prism.git
+branch = main
 
 [submodule "Mods/rcBalatro"]
-	path = Mods/rcBalatro
-	url = https://github.com/pumpncode/rcBalatro.git
-	branch = main
+path = Mods/rcBalatro
+url = https://github.com/pumpncode/rcBalatro.git
+branch = main
 
 [submodule "Mods/rcBLib"]
-	path = Mods/rcBLib
-	url = https://github.com/pumpncode/rcBLib.git
-	branch = main
+path = Mods/rcBLib
+url = https://github.com/pumpncode/rcBLib.git
+branch = main
 
 [submodule "Mods/Redux-Arcanum"]
-	path = Mods/Redux-Arcanum
-	url = https://github.com/pumpncode/Redux-Arcanum.git
-	branch = main
+path = Mods/Redux-Arcanum
+url = https://github.com/pumpncode/Redux-Arcanum.git
+branch = main
 
 [submodule "Mods/reverie"]
-	path = Mods/reverie
-	url = https://github.com/pumpncode/reverie.git
-	branch = main
+path = Mods/reverie
+url = https://github.com/pumpncode/reverie.git
+branch = main
 
 [submodule "Mods/Revos-Vault---Balatro-Mod"]
-	path = Mods/Revos-Vault---Balatro-Mod
-	url = https://github.com/pumpncode/Revos-Vault---Balatro-Mod.git
-	branch = main
+path = Mods/Revos-Vault---Balatro-Mod
+url = https://github.com/pumpncode/Revos-Vault---Balatro-Mod.git
+branch = main
 
 [submodule "Mods/RiftRaft"]
-	path = Mods/RiftRaft
-	url = https://github.com/pumpncode/RiftRaft.git
-	branch = main
+path = Mods/RiftRaft
+url = https://github.com/pumpncode/RiftRaft.git
+branch = main
 
 [submodule "Mods/sarcpot-mod"]
-	path = Mods/sarcpot-mod
-	url = https://github.com/pumpncode/sarcpot-mod.git
-	branch = main
+path = Mods/sarcpot-mod
+url = https://github.com/pumpncode/sarcpot-mod.git
+branch = main
 
 [submodule "Mods/SDM_0-s-Stuff"]
-	path = Mods/SDM_0-s-Stuff
-	url = https://github.com/pumpncode/SDM_0-s-Stuff.git
-	branch = main
+path = Mods/SDM_0-s-Stuff
+url = https://github.com/pumpncode/SDM_0-s-Stuff.git
+branch = main
 
 [submodule "Mods/SeveredBalatro"]
-	path = Mods/SeveredBalatro
-	url = https://github.com/pumpncode/SeveredBalatro.git
-	branch = main
+path = Mods/SeveredBalatro
+url = https://github.com/pumpncode/SeveredBalatro.git
+branch = main
 
 [submodule "Mods/Showdown"]
-	path = Mods/Showdown
-	url = https://github.com/pumpncode/Showdown.git
-	branch = main
+path = Mods/Showdown
+url = https://github.com/pumpncode/Showdown.git
+branch = main
 
 [submodule "Mods/smods"]
-	path = Mods/smods
-	url = https://github.com/pumpncode/smods.git
-	branch = main
+path = Mods/smods
+url = https://github.com/pumpncode/smods.git
+branch = main
 
 [submodule "Mods/Snow-s-Mods"]
-	path = Mods/Snow-s-Mods
-	url = https://github.com/pumpncode/Snow-s-Mods.git
-	branch = main
+path = Mods/Snow-s-Mods
+url = https://github.com/pumpncode/Snow-s-Mods.git
+branch = main
 
 [submodule "Mods/SpicyJokers"]
-	path = Mods/SpicyJokers
-	url = https://github.com/pumpncode/SpicyJokers.git
-	branch = main
+path = Mods/SpicyJokers
+url = https://github.com/pumpncode/SpicyJokers.git
+branch = main
 
 [submodule "Mods/suit-order"]
-	path = Mods/suit-order
-	url = https://github.com/pumpncode/suit-order.git
-	branch = main
+path = Mods/suit-order
+url = https://github.com/pumpncode/suit-order.git
+branch = main
 
 [submodule "Mods/Talisman"]
-	path = Mods/Talisman
-	url = https://github.com/pumpncode/Talisman.git
-	branch = main
+path = Mods/Talisman
+url = https://github.com/pumpncode/Talisman.git
+branch = main
 
 [submodule "Mods/Tesseract"]
-	path = Mods/Tesseract
-	url = https://github.com/pumpncode/Tesseract.git
-	branch = main
+path = Mods/Tesseract
+url = https://github.com/pumpncode/Tesseract.git
+branch = main
 
 [submodule "Mods/Tetrapak"]
-	path = Mods/Tetrapak
-	url = https://github.com/pumpncode/Tetrapak.git
-	branch = main
+path = Mods/Tetrapak
+url = https://github.com/pumpncode/Tetrapak.git
+branch = main
 
 [submodule "Mods/The-World-Ends-With-Jimbo"]
-	path = Mods/The-World-Ends-With-Jimbo
-	url = https://github.com/pumpncode/The-World-Ends-With-Jimbo.git
-	branch = main
+path = Mods/The-World-Ends-With-Jimbo
+url = https://github.com/pumpncode/The-World-Ends-With-Jimbo.git
+branch = main
 
 [submodule "Mods/tiwmig-mod"]
-	path = Mods/tiwmig-mod
-	url = https://github.com/pumpncode/tiwmig-mod.git
-	branch = main
+path = Mods/tiwmig-mod
+url = https://github.com/pumpncode/tiwmig-mod.git
+branch = main
 
 [submodule "Mods/TOGAPackBalatro"]
-	path = Mods/TOGAPackBalatro
-	url = https://github.com/pumpncode/TOGAPackBalatro.git
-	branch = main
+path = Mods/TOGAPackBalatro
+url = https://github.com/pumpncode/TOGAPackBalatro.git
+branch = main
 
 [submodule "Mods/UnStable"]
-	path = Mods/UnStable
-	url = https://github.com/pumpncode/UnStable.git
-	branch = main
+path = Mods/UnStable
+url = https://github.com/pumpncode/UnStable.git
+branch = main
 
 [submodule "Mods/UnStableEX"]
-	path = Mods/UnStableEX
-	url = https://github.com/pumpncode/UnStableEX.git
-	branch = main
+path = Mods/UnStableEX
+url = https://github.com/pumpncode/UnStableEX.git
+branch = main
 
 [submodule "Mods/Warpzone"]
-	path = Mods/Warpzone
-	url = https://github.com/pumpncode/Warpzone.git
-	branch = main
+path = Mods/Warpzone
+url = https://github.com/pumpncode/Warpzone.git
+branch = main
