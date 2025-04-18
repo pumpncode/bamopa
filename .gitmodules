@@ -412,3 +412,7 @@ branch = main
 path = Mods/Warpzone
 url = https://github.com/pumpncode/Warpzone.git
 branch = main
+[submodule "Mods/balaum"]
+path = Mods/balaum
+url = https://github.com/pumpncode/balaum.git
+branch = main
