@@ -416,3 +416,11 @@ branch = main
 path = Mods/balaum
 url = https://github.com/pumpncode/balaum.git
 branch = main
+[submodule "Mods/SoulEverything"]
+path = Mods/SoulEverything
+url = https://github.com/pumpncode/SoulEverything.git
+branch=main
+[submodule "Mods/Malverk"]
+path = Mods/Malverk
+url = https://github.com/pumpncode/Malverk.git
+branch=main
