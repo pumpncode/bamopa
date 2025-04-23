@@ -68,6 +68,11 @@ path = Mods/BalatroMods
 url = https://github.com/pumpncode/BalatroMods.git
 branch = main
 
+[submodule "Mods/balaum"]
+path = Mods/balaum
+url = https://github.com/pumpncode/balaum.git
+branch = main
+
 [submodule "Mods/Bird-Jokers"]
 path = Mods/Bird-Jokers
 url = https://github.com/pumpncode/Bird-Jokers.git
@@ -223,6 +228,11 @@ path = Mods/luckyjimbos
 url = https://github.com/pumpncode/luckyjimbos.git
 branch = main
 
+[submodule "Mods/Malverk"]
+path = Mods/Malverk
+url = https://github.com/pumpncode/Malverk.git
+branch = main
+
 [submodule "Mods/Maximus"]
 path = Mods/Maximus
 url = https://github.com/pumpncode/Maximus.git
@@ -358,6 +368,11 @@ path = Mods/Snow-s-Mods
 url = https://github.com/pumpncode/Snow-s-Mods.git
 branch = main
 
+[submodule "Mods/SoulEverything"]
+path = Mods/SoulEverything
+url = https://github.com/pumpncode/SoulEverything.git
+branch = main
+
 [submodule "Mods/SpicyJokers"]
 path = Mods/SpicyJokers
 url = https://github.com/pumpncode/SpicyJokers.git
@@ -412,15 +427,3 @@ branch = main
 path = Mods/Warpzone
 url = https://github.com/pumpncode/Warpzone.git
 branch = main
-[submodule "Mods/balaum"]
-path = Mods/balaum
-url = https://github.com/pumpncode/balaum.git
-branch = main
-[submodule "Mods/SoulEverything"]
-path = Mods/SoulEverything
-url = https://github.com/pumpncode/SoulEverything.git
-branch=main
-[submodule "Mods/Malverk"]
-path = Mods/Malverk
-url = https://github.com/pumpncode/Malverk.git
-branch=main
