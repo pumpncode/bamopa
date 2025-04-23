@@ -6,7 +6,7 @@ import { Input } from "@cliffy/prompt";
 import { mods } from "./_common/_exports.js";
 
 // Mods that are always considered fine (won't be tested)
-let ALWAYS_FINE_MODS = ["Talisman", "ExtraCredit"];
+let ALWAYS_FINE_MODS = ["ExtraCredit"];
 
 // Mods that are always considered problematic (will always be disabled)
 const ALWAYS_DISABLED_MODS = [
@@ -15,7 +15,18 @@ const ALWAYS_DISABLED_MODS = [
 	"Mika's Mod Collection",
 	"Reverie",
 	"Pokermon",
-	"Balatrobot"
+	"Balatrobot",
+	"Talisman",
+	"balaum",
+	"Perk-O-lating",
+	"Familiar",
+	"Gemstones",
+	"Ceres",
+	"Pampa Joker Pack",
+	"Maximus",
+	"D6 Jokers",
+	"Ortalab",
+	"Aikoyori's Shenanigans"
 ];
 
 // Mods that are always considered fine (won't be tested)
