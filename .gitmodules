@@ -13,11 +13,6 @@ path = Mods/balatro_reverse_tarots
 url = https://github.com/pumpncode/balatro_reverse_tarots.git
 branch = master
 
-[submodule "Mods/Balatro---Themed-Jokers"]
-path = Mods/Balatro---Themed-Jokers
-url = https://github.com/pumpncode/Balatro---Themed-Jokers.git
-branch = main
-
 [submodule "Mods/Balatro-7DeadlyDecks"]
 path = Mods/Balatro-7DeadlyDecks
 url = https://github.com/pumpncode/Balatro-7DeadlyDecks.git
@@ -78,11 +73,6 @@ path = Mods/Bird-Jokers
 url = https://github.com/pumpncode/Bird-Jokers.git
 branch = main
 
-[submodule "Mods/BossJokers"]
-path = Mods/BossJokers
-url = https://github.com/pumpncode/BossJokers.git
-branch = main
-
 [submodule "Mods/Buffoonery"]
 path = Mods/Buffoonery
 url = https://github.com/pumpncode/Buffoonery.git
@@ -98,19 +88,9 @@ path = Mods/CelesteCardCollection
 url = https://github.com/pumpncode/CelesteCardCollection.git
 branch = main
 
-[submodule "Mods/Ceres"]
-path = Mods/Ceres
-url = https://github.com/pumpncode/Ceres.git
-branch = main
-
 [submodule "Mods/Challenger-Deep"]
 path = Mods/Challenger-Deep
 url = https://github.com/pumpncode/Challenger-Deep.git
-branch = main
-
-[submodule "Mods/CheesyJokers"]
-path = Mods/CheesyJokers
-url = https://github.com/pumpncode/CheesyJokers.git
 branch = main
 
 [submodule "Mods/Cosmos"]
@@ -183,11 +163,6 @@ path = Mods/JankJonklers
 url = https://github.com/pumpncode/JankJonklers.git
 branch = main
 
-[submodule "Mods/Jimbos-Histories"]
-path = Mods/Jimbos-Histories
-url = https://github.com/pumpncode/Jimbos-Histories.git
-branch = main
-
 [submodule "Mods/Joker-Evolution"]
 path = Mods/Joker-Evolution
 url = https://github.com/pumpncode/Joker-Evolution.git
@@ -236,11 +211,6 @@ branch = main
 [submodule "Mods/Maximus"]
 path = Mods/Maximus
 url = https://github.com/pumpncode/Maximus.git
-branch = main
-
-[submodule "Mods/MikasBalatro"]
-path = Mods/MikasBalatro
-url = https://github.com/pumpncode/MikasBalatro.git
 branch = main
 
 [submodule "Mods/Mistigris"]
@@ -373,11 +343,6 @@ path = Mods/SoulEverything
 url = https://github.com/pumpncode/SoulEverything.git
 branch = main
 
-[submodule "Mods/SpicyJokers"]
-path = Mods/SpicyJokers
-url = https://github.com/pumpncode/SpicyJokers.git
-branch = main
-
 [submodule "Mods/suit-order"]
 path = Mods/suit-order
 url = https://github.com/pumpncode/suit-order.git
@@ -396,11 +361,6 @@ branch = main
 [submodule "Mods/Tetrapak"]
 path = Mods/Tetrapak
 url = https://github.com/pumpncode/Tetrapak.git
-branch = main
-
-[submodule "Mods/The-World-Ends-With-Jimbo"]
-path = Mods/The-World-Ends-With-Jimbo
-url = https://github.com/pumpncode/The-World-Ends-With-Jimbo.git
 branch = main
 
 [submodule "Mods/tiwmig-mod"]

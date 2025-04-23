@@ -26,7 +26,18 @@ const ALWAYS_DISABLED_MODS = [
 	"Maximus",
 	"D6 Jokers",
 	"Ortalab",
-	"Aikoyori's Shenanigans"
+	"Aikoyori's Shenanigans",
+	"Balatro Jokers PLUS",
+	"Faster Stakes Unlock",
+	"no laughing matter",
+	"Tetrapak",
+	"Item Remover",
+	"Fusion Jokers",
+	"Balatro+",
+	"Tesseract",
+	"Drafting",
+	"JankJonklersMod",
+	"Mossed"
 ];
 
 // Mods that are always considered fine (won't be tested)
