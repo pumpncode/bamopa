@@ -1,4 +1,3 @@
-// filepath: /Users/nnmrts/Library/Application Support/Balatro/scripts/list-latest-upstream-commits.js
 import { submodules } from "./_common/_exports.js";
 
 const {
