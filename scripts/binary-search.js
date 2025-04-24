@@ -37,7 +37,10 @@ const ALWAYS_DISABLED_MODS = [
 	"Tesseract",
 	"Drafting",
 	"JankJonklersMod",
-	"Mossed"
+	"Mossed",
+	"High Card Mod",
+	"Emporium",
+	"Highest Priestess"
 ];
 
 // Mods that are always considered fine (won't be tested)

@@ -373,6 +373,11 @@ path = Mods/TOGAPackBalatro
 url = https://github.com/pumpncode/TOGAPackBalatro.git
 branch = main
 
+[submodule "Mods/Tsus-Jeopardy"]
+path = Mods/Tsus-Jeopardy
+url = https://github.com/pumpncode/Tsus-Jeopardy.git
+branch = main
+
 [submodule "Mods/UnStable"]
 path = Mods/UnStable
 url = https://github.com/pumpncode/UnStable.git
