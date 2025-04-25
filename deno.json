@@ -10,7 +10,8 @@
 		"interactive-update-submodules": "deno run -R --allow-run ./scripts/interactive-update-submodules.js",
 		"update-submodule-branches": "deno run -R --allow-run ./scripts/update-submodule-branches.js",
 		"sort-submodules": "deno run -R -W --allow-run ./scripts/sort-submodules.js",
-		"list-latest-upstream-commits": "deno run -R --allow-run ./scripts/list-latest-upstream-commits.js"
+		"list-latest-upstream-commits": "deno run -R --allow-run ./scripts/list-latest-upstream-commits.js",
+		"add-lovelyignore-to-gitignore": "deno run -R -W --allow-run ./scripts/add-lovelyignore-to-gitignore.js"
 	},
 	"fmt": {
 		"options": {
