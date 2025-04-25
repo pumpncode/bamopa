@@ -348,6 +348,11 @@
 	url = https://github.com/pumpncode/SoulEverything.git
 	branch = main
 
+[submodule "Mods/stuffz"]
+	path = Mods/stuffz
+	url = https://github.com/pumpncode/stuffz.git
+	branch = main
+
 [submodule "Mods/suit-order"]
 	path = Mods/suit-order
 	url = https://github.com/pumpncode/suit-order.git

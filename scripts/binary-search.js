@@ -41,7 +41,8 @@ const ALWAYS_DISABLED_MODS = [
 	"High Card Mod",
 	"Emporium",
 	"Seals On Everything",
-	"JokerHub"
+	"JokerHub",
+	"Challenger Deep"
 ];
 
 // Mods that are always considered fine (won't be tested)
