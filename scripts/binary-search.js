@@ -40,7 +40,8 @@ const ALWAYS_DISABLED_MODS = [
 	"Mossed",
 	"High Card Mod",
 	"Emporium",
-	"Highest Priestess"
+	"Seals On Everything",
+	"JokerHub"
 ];
 
 // Mods that are always considered fine (won't be tested)
