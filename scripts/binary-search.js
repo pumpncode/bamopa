@@ -42,7 +42,8 @@ const ALWAYS_DISABLED_MODS = [
 	"Emporium",
 	"Seals On Everything",
 	"JokerHub",
-	"Challenger Deep"
+	"Challenger Deep",
+	"Aura"
 ];
 
 // Mods that are always considered fine (won't be tested)
