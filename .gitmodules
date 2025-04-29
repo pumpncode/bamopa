@@ -58,6 +58,11 @@ path = Mods/balatro-plus
 url = https://github.com/pumpncode/balatro-plus.git
 branch = main
 
+[submodule "Mods/balatro-victins-collection"]
+path = Mods/balatro-victins-collection
+url = https://github.com/pumpncode/balatro-victins-collection.git
+branch = dev
+
 [submodule "Mods/BalatroBakery"]
 path = Mods/BalatroBakery
 url = https://github.com/pumpncode/BalatroBakery.git
@@ -71,6 +76,11 @@ branch = main
 [submodule "Mods/balaum"]
 path = Mods/balaum
 url = https://github.com/pumpncode/balaum.git
+branch = main
+
+[submodule "Mods/Banner"]
+path = Mods/Banner
+url = https://github.com/pumpncode/Banner.git
 branch = main
 
 [submodule "Mods/Bird-Jokers"]
@@ -107,6 +117,11 @@ branch = main
 path = Mods/D6-Jokers
 url = https://github.com/pumpncode/D6-Jokers.git
 branch = main
+
+[submodule "Mods/DebugPlus"]
+path = Mods/DebugPlus
+url = https://github.com/pumpncode/DebugPlus.git
+branch = master
 
 [submodule "Mods/DreadJokers"]
 path = Mods/DreadJokers
@@ -156,11 +171,6 @@ branch = main
 [submodule "Mods/Handsome-Devils-Vanilla-mod-"]
 path = Mods/Handsome-Devils-Vanilla-mod-
 url = https://github.com/pumpncode/Handsome-Devils-Vanilla-mod-.git
-branch = main
-
-[submodule "Mods/Item-Remover"]
-path = Mods/Item-Remover
-url = https://github.com/pumpncode/Item-Remover.git
 branch = main
 
 [submodule "Mods/JankJonklers"]
@@ -271,6 +281,11 @@ branch = main
 [submodule "Mods/Plantain"]
 path = Mods/Plantain
 url = https://github.com/pumpncode/Plantain.git
+branch = main
+
+[submodule "Mods/platonatro"]
+path = Mods/platonatro
+url = https://github.com/pumpncode/platonatro.git
 branch = main
 
 [submodule "Mods/Pokermon"]
@@ -387,6 +402,11 @@ branch = main
 path = Mods/TOGAPackBalatro
 url = https://github.com/pumpncode/TOGAPackBalatro.git
 branch = main
+
+[submodule "Mods/toomanyjokers"]
+path = Mods/toomanyjokers
+url = https://github.com/pumpncode/toomanyjokers.git
+branch=main
 
 [submodule "Mods/Tsus-Jeopardy"]
 path = Mods/Tsus-Jeopardy
