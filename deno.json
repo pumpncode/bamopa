@@ -11,7 +11,8 @@
 		"update-submodule-branches": "deno run -R --allow-run ./scripts/update-submodule-branches.js",
 		"sort-submodules": "deno run -R -W --allow-run ./scripts/sort-submodules.js",
 		"list-latest-upstream-commits": "deno run -R --allow-run ./scripts/list-latest-upstream-commits.js",
-		"add-lovelyignore-to-gitignore": "deno run -R -W --allow-run ./scripts/add-lovelyignore-to-gitignore.js"
+		"add-lovelyignore-to-gitignore": "deno run -R -W --allow-run ./scripts/add-lovelyignore-to-gitignore.js",
+		"refresh": "deno task add-upstream-remote && deno task update-submodule-branches && git submodule foreach \"git push\""
 	},
 	"fmt": {
 		"options": {

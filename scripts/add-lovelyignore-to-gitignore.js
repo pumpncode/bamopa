@@ -94,7 +94,7 @@ const updateExistingGitignore = async (gitignorePath, gitignoreContent) => {
 
 	// Add .lovelyignore to the existing file
 	console.info("  Adding .lovelyignore to existing .gitignore");
-	const updatedContent = `${gitignoreContent.trim()}\n\n# Binary search temporary files\n.lovelyignore\n`;
+	const updatedContent = `${gitignoreContent.trim()}\n.lovelyignore\n`;
 
 	await writeTextFile(gitignorePath, updatedContent);
 };
