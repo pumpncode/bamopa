@@ -427,3 +427,18 @@ branch = main
 path = Mods/Warpzone
 url = https://github.com/pumpncode/Warpzone.git
 branch = main
+[submodule "Mods/blindexpander"]
+path = Mods/blindexpander
+url = https://github.com/pumpncode/blindexpander.git
+branch=master
+[submodule "Mods/balatro-star-rail"]
+path = Mods/balatro-star-rail
+url = https://github.com/pumpncode/balatro-star-rail.git
+branch=main
+[submodule "Mods/HandyBalatro"]
+path = Mods/HandyBalatro
+url = https://github.com/pumpncode/HandyBalatro.git
+branch=main
+[submodule "Mods/Cartomancer"]
+	path = Mods/Cartomancer
+	url = https://github.com/pumpncode/Cartomancer.git
