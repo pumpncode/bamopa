@@ -6,20 +6,18 @@ import { Input } from "@cliffy/prompt";
 import { mods } from "./_common/_exports.js";
 
 // Mods that are always considered fine (won't be tested)
-let ALWAYS_FINE_MODS = ["ExtraCredit"];
+let ALWAYS_FINE_MODS = [];
 
 // Mods that are always considered problematic (will always be disabled)
 const ALWAYS_DISABLED_MODS = [
 	"Betmma Abilities",
 	"Betmma Spells",
 	"Mika's Mod Collection",
-	"Reverie",
 	"Pokermon",
 	"Balatrobot",
 	"Talisman",
 	"balaum",
 	"Perk-O-lating",
-	"Familiar",
 	"Gemstones",
 	"Ceres",
 	"Pampa Joker Pack",
@@ -32,18 +30,20 @@ const ALWAYS_DISABLED_MODS = [
 	"no laughing matter",
 	"Tetrapak",
 	"Item Remover",
-	"Fusion Jokers",
-	"Balatro+",
 	"Tesseract",
 	"Drafting",
-	"JankJonklersMod",
-	"Mossed",
 	"High Card Mod",
 	"Emporium",
 	"Seals On Everything",
 	"JokerHub",
 	"Challenger Deep",
-	"Aura"
+	"Aura",
+	"Blind Expander",
+	"DebugPlus",
+	"platonatro",
+	"Highest Priestess",
+	"Balatro: Star Rail",
+	"The Dread Jokers"
 ];
 
 // Mods that are always considered fine (won't be tested)
