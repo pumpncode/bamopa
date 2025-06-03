@@ -43,6 +43,10 @@ const runCommand = async function (
 		code, stderr, stdout
 	} = await command.output();
 
+	if (code !== 0) {
+		console.log(new TextDecoder().decode(stderr));
+	}
+
 	return {
 		stderr: new TextDecoder().decode(stderr),
 		stdout: new TextDecoder().decode(stdout),

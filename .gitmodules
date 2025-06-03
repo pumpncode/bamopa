@@ -1,3 +1,7 @@
+[submodule "Mods/VanillaRemade"]
+path = Mods/VanillaRemade
+url = https://github.com/pumpncode/VanillaRemade.git
+
 [submodule "Mods/3xCredits"]
 path = Mods/3xCredits
 url = https://github.com/pumpncode/3xCredits.git
@@ -482,3 +486,30 @@ branch = main
 path = Mods/Warpzone
 url = https://github.com/pumpncode/Warpzone.git
 branch = main
+[submodule "Mods/CardExporter"]
+	path = Mods/CardExporter
+	url = https://github.com/pumpncode/CardExporter.git
+[submodule "Mods/Bm_balatro_mods"]
+	path = Mods/Bm_balatro_mods
+	url = https://github.com/pumpncode/Bm_balatro_mods.git
+[submodule "Mods/Partner-API"]
+	path = Mods/Partner-API
+	url = https://github.com/pumpncode/Partner-API.git
+[submodule "Mods/balacomp"]
+	path = Mods/balacomp
+	url = https://github.com/pumpncode/balacomp.git
+[submodule "Mods/yahimod-balatro"]
+	path = Mods/yahimod-balatro
+	url = https://github.com/pumpncode/yahimod-balatro.git
+[submodule "Mods/Balatest"]
+	path = Mods/Balatest
+	url = https://github.com/pumpncode/Balatest.git
+[submodule "Mods/bountiful"]
+	path = Mods/bountiful
+	url = https://github.com/pumpncode/bountiful.git
+[submodule "Mods/grab-bag"]
+	path = Mods/grab-bag
+	url = https://github.com/pumpncode/grab-bag.git
+[submodule "Mods/Finity"]
+	path = Mods/Finity
+	url = https://github.com/pumpncode/Finity.git
