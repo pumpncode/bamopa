@@ -156,7 +156,7 @@ const writeLovelyIgnore = async (modList) => {
 		const modDirectory = dirname(mod.path);
 		const filePath = `${modDirectory}/.lovelyignore`;
 
-		await writeTextFile(filePath, "# Ignored by binary search");
+		await writeTextFile(filePath, "");
 	}
 };
 
