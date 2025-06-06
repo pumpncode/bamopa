@@ -6,10 +6,10 @@ import { Input } from "@cliffy/prompt";
 import { mods } from "./_common/_exports.js";
 
 // Mods that are always considered fine (won't be tested)
-let ALWAYS_FINE_MODS = [];
+let alwaysFineMods = [];
 
 // Mods that are always considered problematic (will always be disabled)
-const ALWAYS_DISABLED_MODS = [
+const alwaysDisabledMods = [
 	"Betmma Abilities",
 	"Betmma Spells",
 	"Mika's Mod Collection",
@@ -45,11 +45,11 @@ const ALWAYS_DISABLED_MODS = [
 	"Balatro: Star Rail",
 	"Dread Jokers",
 	"The Dread Jokers",
-	"Too Many Decks",
+	// "Too Many Decks",
 	"Balatro Hevven",
 	"FickleFox",
 	"Next Ante Preview",
-	"Victin's Collection",
+	// "Victin's Collection",
 	"Handsome Devils",
 	"VanillaRemade",
 	"Bmwallet",
@@ -63,7 +63,7 @@ const ALWAYS_DISABLED_MODS = [
 	"balacomp",
 	"Custom Suit Order",
 	"Balafuzz",
-	"Buffoonery",
+	// "Buffoonery",
 	// "Aikoyori's Shenanigans",
 	"Yahimod",
 	"rcBLib",
@@ -78,7 +78,7 @@ const {
 	writeTextFile
 } = Deno;
 
-const FINE_MODS_FILE = "fine_mods.json";
+const fineModsFileName = "fine-mods.json";
 
 /**
  * Load fine mods from file
@@ -90,7 +90,7 @@ const FINE_MODS_FILE = "fine_mods.json";
  */
 const loadFineMods = async () => {
 	try {
-		const data = await readTextFile(FINE_MODS_FILE);
+		const data = await readTextFile(fineModsFileName);
 
 		return JSON.parse(data);
 	}
@@ -114,7 +114,7 @@ const loadFineMods = async () => {
  */
 const saveFineMods = async (fineMods) => {
 	try {
-		await writeTextFile(FINE_MODS_FILE, JSON.stringify([...fineMods]));
+		await writeTextFile(fineModsFileName, JSON.stringify([...fineMods]));
 	}
 	catch (error) {
 		console.error("Error saving fine mods:", error);
@@ -213,20 +213,20 @@ const isModDisabled = async (mod) => {
  */
 const initializeMods = async (allMods) => {
 	// Initialize with always-fine mods
-	const fineMods = new Set(ALWAYS_FINE_MODS);
+	const fineMods = new Set(alwaysFineMods);
 	const enabledMods = new Set();
 
 	// Check which mods are actually enabled when starting
 	for (const mod of allMods) {
 		// Only add to enabled if it's not disabled and not in the always-disabled list
-		if ((!(await isModDisabled(mod)) || ALWAYS_FINE_MODS.includes(mod.name)) &&
-			!ALWAYS_DISABLED_MODS.includes(mod.name)) {
+		if ((!(await isModDisabled(mod)) || alwaysFineMods.includes(mod.name)) &&
+			!alwaysDisabledMods.includes(mod.name)) {
 			enabledMods.add(mod.name);
 		}
 	}
 
 	// Force enable the always-fine mods
-	for (const modName of ALWAYS_FINE_MODS) {
+	for (const modName of alwaysFineMods) {
 		enabledMods.add(modName);
 
 		// Also remove any .lovelyignore files for always-fine mods
@@ -238,7 +238,7 @@ const initializeMods = async (allMods) => {
 	}
 
 	// Force disable the always-disabled mods
-	for (const modName of ALWAYS_DISABLED_MODS) {
+	for (const modName of alwaysDisabledMods) {
 		enabledMods.delete(modName);
 
 		// Also add .lovelyignore files for always-disabled mods
@@ -274,7 +274,7 @@ const displayModStatus = (allMods, enabledMods, fineMods) => {
 
 	// Get all disabled mods (excluding always-disabled mods)
 	const disabledMods = allMods.filter(
-		(mod) => !enabledMods.has(mod.name) && !ALWAYS_DISABLED_MODS.includes(mod.name)
+		(mod) => !enabledMods.has(mod.name) && !alwaysDisabledMods.includes(mod.name)
 	);
 
 	// Display mod status
@@ -289,8 +289,8 @@ const displayModStatus = (allMods, enabledMods, fineMods) => {
 		`- Disabled mods: ${disabledMods.map((mod) => mod.name).join(", ") || "None"}`
 	);
 
-	if (ALWAYS_DISABLED_MODS.length > 0) {
-		console.info(`- Always disabled mods: ${ALWAYS_DISABLED_MODS.join(", ")}`);
+	if (alwaysDisabledMods.length > 0) {
+		console.info(`- Always disabled mods: ${alwaysDisabledMods.join(", ")}`);
 	}
 
 	return {
@@ -348,7 +348,7 @@ const handleGameRanFine = (allMods, enabledMods, fineMods, enabledNonFineMods, d
 
 		for (const mod of modsToEnable) {
 			// Don't enable always-disabled mods
-			if (!ALWAYS_DISABLED_MODS.includes(mod.name)) {
+			if (!alwaysDisabledMods.includes(mod.name)) {
 				updatedEnabledMods.add(mod.name);
 			}
 		}
@@ -385,7 +385,7 @@ const handleGameHadProblems = (allMods, enabledMods, fineMods, enabledNonFineMod
 		const modsToDisable = shuffleArray([...enabledNonFineMods]).slice(0, halfCount);
 
 		for (const mod of modsToDisable) {
-			if (!ALWAYS_FINE_MODS.includes(mod.name)) {
+			if (!alwaysFineMods.includes(mod.name)) {
 				updatedEnabledMods.delete(mod.name);
 			}
 		}
@@ -410,19 +410,19 @@ const handleGameHadProblems = (allMods, enabledMods, fineMods, enabledNonFineMod
 const handleReset = async (allMods) => {
 	console.info("Resetting - disabling mods and clearing fine mods list (except always-fine mods)");
 
-	const fineMods = new Set(ALWAYS_FINE_MODS);
-	const enabledMods = new Set(ALWAYS_FINE_MODS);
+	const fineMods = new Set(alwaysFineMods);
+	const enabledMods = new Set(alwaysFineMods);
 
 	// Disable all mods except always-fine mods
 	const modsToDisable = allMods.filter(
-		(mod) => !ALWAYS_FINE_MODS.includes(mod.name) || ALWAYS_DISABLED_MODS.includes(mod.name)
+		(mod) => !alwaysFineMods.includes(mod.name) || alwaysDisabledMods.includes(mod.name)
 	);
 
 	await writeLovelyIgnore(modsToDisable);
 
 	// Make sure always-fine mods are enabled (and always-disabled mods stay disabled)
 	const modsToEnable = allMods.filter(
-		(mod) => ALWAYS_FINE_MODS.includes(mod.name) && !ALWAYS_DISABLED_MODS.includes(mod.name)
+		(mod) => alwaysFineMods.includes(mod.name) && !alwaysDisabledMods.includes(mod.name)
 	);
 
 	await removeLovelyIgnore(modsToEnable);
@@ -431,35 +431,6 @@ const handleReset = async (allMods) => {
 		enabledMods,
 		fineMods
 	};
-};
-
-/**
- * Check if we've found the problematic mod
- *
- * @param {Array<{name: string}>} enabledNonFineMods - List of active mods that need testing because they haven't been confirmed as problem-free
- * @param {Array<{name: string}>} disabledMods - Mods that are currently turned off and may need to be tested in future iterations
- * @returns {boolean} True if search is complete, false otherwise
- * @example
- * // Check if we've isolated the problematic mod
- * if (isSearchComplete(enabledNonFineMods, disabledMods)) {
- *   console.log("Search is complete!");
- *   return;
- * }
- */
-const isSearchComplete = (enabledNonFineMods, disabledMods) => {
-	// If there's only 1 or 0 non-fine mod enabled, we've found our culprit
-	if (enabledNonFineMods.length <= 1 && disabledMods.length === 0) {
-		if (enabledNonFineMods.length === 1) {
-			console.info(`\n✓ FOUND PROBLEMATIC MOD: ${enabledNonFineMods[0].name}`);
-		}
-		else {
-			console.info("\n✓ No problematic mods identified.");
-		}
-
-		return true;
-	}
-
-	return false;
 };
 
 /**
@@ -544,13 +515,13 @@ const enforceModRules = (enabledMods) => {
 
 	// Always ensure the always-fine mods are in the enabled list
 	// and always-disabled mods are not in the enabled list
-	for (const modName of ALWAYS_FINE_MODS) {
-		if (!ALWAYS_DISABLED_MODS.includes(modName)) {
+	for (const modName of alwaysFineMods) {
+		if (!alwaysDisabledMods.includes(modName)) {
 			updatedEnabledMods.add(modName);
 		}
 	}
 
-	for (const modName of ALWAYS_DISABLED_MODS) {
+	for (const modName of alwaysDisabledMods) {
 		updatedEnabledMods.delete(modName);
 	}
 
@@ -571,7 +542,7 @@ const binarySearchMods = async () => {
 	// Load fine mods from file
 	const loadedFineMods = await loadFineMods();
 
-	ALWAYS_FINE_MODS = [...new Set([...ALWAYS_FINE_MODS, ...loadedFineMods])];
+	alwaysFineMods = [...new Set([...alwaysFineMods, ...loadedFineMods])];
 
 	// Initialize enabled and fine mods
 	let { enabledMods, fineMods } = await initializeMods(allMods);
@@ -588,11 +559,6 @@ const binarySearchMods = async () => {
 			enabledMods,
 			fineMods
 		);
-
-		// Check if search is complete
-		if (isSearchComplete(enabledNonFineMods, disabledMods)) {
-			return;
-		}
 
 		// Get user response
 		const userResponse = await Input.prompt({

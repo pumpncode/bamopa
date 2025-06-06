@@ -243,7 +243,6 @@ const modSchema = v.pipe(
 			v.exactOptional(
 				v.pipe(
 					v.number(),
-					v.integer(),
 					v.finite()
 				),
 				0
